@@ -1,0 +1,10 @@
+.header-div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-li {
+    padding: 10px;
+    display: inline;
+    list-style-type: none;
+}
