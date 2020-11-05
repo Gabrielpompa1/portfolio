@@ -1,10 +1,22 @@
 .header-div {
     display: flex;
     justify-content: space-between;
+    height: 200px;
+    background-color: aliceblue;
+}
+
+.header-title {
+    color: black;
+    font-size: 36px;
 }
 
 .nav-li {
     padding: 10px;
     display: inline;
     list-style-type: none;
+    color: black;
+}
+
+.link {
+    text-decoration: none;
 }
