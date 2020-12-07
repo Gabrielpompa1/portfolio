@@ -8,6 +8,9 @@ const About = () => {
 				<h2>About Me</h2>
 			</div>
 			<div>
+				<img src='../images/meandzephpark3.jpg' alt='' width='300px'/>
+			</div>
+			<div>
 				<section>
 					<h3>Brand Statement</h3>
 					<p>
