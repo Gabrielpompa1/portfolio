@@ -1,0 +1,16 @@
+.footer-div {
+    background-color: tomato;
+    height: 250px;
+}
+.footer-nav-li {
+    display: inline-flex;
+    padding: 40px;
+    justify-content: space-between;
+    font-size: 60px;
+    list-style-type: none;
+    color: black;
+}
+
+.footer-nav-li:hover {
+    color: blue;
+}
