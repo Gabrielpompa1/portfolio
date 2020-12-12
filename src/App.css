@@ -6,15 +6,19 @@
 /* header {
     
 } */
-
-main {
-    height: 800px;
+.app-root-div {
+    background-color: chartreuse;
 }
+
+
 
 section {
     text-align: center;
     max-width: 400px;
     padding: 50px;
+}
+body {
+    height: 600px;
 }
 
 a {
@@ -24,4 +28,11 @@ a {
 
 a:hover {
     color: blue;
+}
+
+footer {
+    position: relative;
+    /* bottom: 0;
+    left: 0;
+    right: 0; */
 }

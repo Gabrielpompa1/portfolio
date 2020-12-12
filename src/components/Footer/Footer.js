@@ -12,22 +12,27 @@ const Footer = () => {
 	const envelope = <FontAwesomeIcon icon={faEnvelope} />;
 
 	return (
-		<div className='footer-div'>
-			<h2>Contact Me</h2>
-			<div className='footer-nav'>
-				<nav>
-					<ul className='footer-nav-ul'>
-						<a href='https://github.com/Gabrielpompa1'>
-							<li className='footer-nav-li'>{github}</li>
-						</a>
-						<a href='https://www.linkedin.com/in/gabrielpompa/'>
-							<li className='footer-nav-li'>{linkedin}</li>
-						</a>
-						<a href='#'>
-							<li className='footer-nav-li'>{envelope}</li>
-						</a>
-					</ul>
-				</nav>
+		<div className='footer-container'>
+			<div className='footer-div'>
+				<h2>Contact Me</h2>
+				<div className='footer-nav'>
+					<nav>
+						<ul className='footer-nav-ul'>
+							<a
+								href='https://github.com/Gabrielpompa1'
+								target='_blank'
+								rel='noreferrer'>
+								<li className='footer-nav-li'>{github}</li>
+							</a>
+							<a href='https://www.linkedin.com/in/gabrielpompa/'>
+								<li className='footer-nav-li'>{linkedin}</li>
+							</a>
+							<a href='#'>
+								<li className='footer-nav-li'>{envelope}</li>
+							</a>
+						</ul>
+					</nav>
+				</div>
 			</div>
 		</div>
 	);

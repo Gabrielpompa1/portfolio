@@ -1,0 +1,8 @@
+footer {
+    position: relative;
+}
+
+.footer-div {
+    position: absolute;
+    bottom: 0;
+}
