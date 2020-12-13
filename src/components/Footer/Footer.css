@@ -1,11 +1,11 @@
-.footer-container {
+/* .footer-container {
 
-}
+} */
 
 .footer-div {
     background-color: tomato;
     height: 250px;
-    position: relative;
+    /* position: relative; */
 }
 .footer-nav-li {
     display: inline-flex;

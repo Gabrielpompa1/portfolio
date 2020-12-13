@@ -24,10 +24,10 @@ const Footer = () => {
 								rel='noreferrer'>
 								<li className='footer-nav-li'>{github}</li>
 							</a>
-							<a href='https://www.linkedin.com/in/gabrielpompa/'>
+							<a href='https://www.linkedin.com/in/gabrielpompa/' target='_blank' rel='noreferrer'>
 								<li className='footer-nav-li'>{linkedin}</li>
 							</a>
-							<a href='#'>
+							<a href='mailto:gabriel.pompa@yahoo.com'>
 								<li className='footer-nav-li'>{envelope}</li>
 							</a>
 						</ul>

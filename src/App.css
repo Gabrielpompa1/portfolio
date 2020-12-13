@@ -1,6 +1,6 @@
 * {
     text-align: center;
-    margin: 0 auto;
+    /* margin: 0 auto; */
 }
 
 /* header {
@@ -14,11 +14,15 @@
 
 section {
     text-align: center;
-    max-width: 400px;
     padding: 50px;
 }
 body {
-    height: 600px;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1 0 auto;
 }
 
 a {
@@ -31,8 +35,5 @@ a:hover {
 }
 
 footer {
-    position: relative;
-    /* bottom: 0;
-    left: 0;
-    right: 0; */
+    flex-shrink: 0;
 }

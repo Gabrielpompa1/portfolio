@@ -3,21 +3,44 @@ import React from 'react';
 const HungryHelper = () => {
 	return (
 		<div>
-			<section>
-				<a href='https://hungry-helper.herokuapp.com/'>
-					<h2>Hungry Helper</h2>
+			<div className='projects-title'>
+				<a
+					href='https://hungry-helper.herokuapp.com/'
+					target='_blank'
+					rel='noreferrer'>
+					<h2 className='projects-h2'>Hungry Helper</h2>
 				</a>
-				<img
-					src='/images/hungryhelper2.png'
-					alt='Hungry Helper Site'
-					width='400px'
-				/>
-				<p>
-					Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequuntur
-					sint eos quas natus, nobis numquam nulla sed necessitatibus id eaque
-					alias quod tempore ex! Atque libero fuga fugit deserunt amet?
-				</p>
-			</section>
+			</div>
+			<div className='projects-container'>
+				<section className='projects-left'>
+					<a
+						href='https://hungry-helper.herokuapp.com/'
+						target='_blank'
+						rel='noreferrer'>
+						<img
+							src='/images/HungryHelper.png'
+							alt='Hungry Helper Site'
+							width='450px'
+						/>
+					</a>
+				</section>
+				<section className='projects-right'>
+					<h2>Description</h2>
+					<p>
+						Hungry Helper is a Front-End application that allows the user to
+						search for recipes based on multiple factors. Utilizes ReactsJS to
+						render HTML5 and CSS3 elements to a single-page application that
+						pulls data from a third-party API.
+					</p>
+					<h2>Technologies Used</h2>
+					<ul>
+						<li>HTML5</li>
+						<li>CSS3</li>
+						<li>ReactJS</li>
+						<li>Node.js</li>
+					</ul>
+				</section>
+			</div>
 		</div>
 	);
 };
