@@ -1,34 +1,34 @@
 .projects-container {
-    background-color: cornflowerblue;
+
     display: flex;
     justify-content: space-around;
 }
 
-.projects-left {
-}
+/* .projects-left {
+
+} */
 
 .projects-right {
     text-align: center;
-
     max-width: 400px;
     margin-right: 60px;
 }
 
 .projects-title {
     text-align: center;
-    background-color: crimson;
-    border-bottom: 3px solid black;
+    border-bottom: 2px solid black;
     width: 800px;
     margin: 0 auto;
 }
 
 .projects-h2 {
+    color: black;
     font-size: 32px;
 }
 
 img {
     border-radius: 10%;
-    border: 5px solid white;
+    border: 10px solid black;
 }
 
 li {
@@ -38,4 +38,5 @@ li {
 
 p {
     text-align: justify;
+    font-size: 20px;
 }
