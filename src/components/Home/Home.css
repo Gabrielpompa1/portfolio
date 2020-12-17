@@ -1,8 +1,11 @@
-footer {
-    position: relative;
+.home-div {
+    height: 100%;
+    background-color: black;
 }
 
-.footer-div {
-    position: absolute;
-    bottom: 0;
+.home-image {
+    width: 100%;
+    height: 10%;
+    border: none;
+    border-radius: 0;
 }

@@ -2,6 +2,7 @@ import React from 'react';
 import Flowertime from './FlowerTime/FlowerTime';
 import HungryHelper from './HungryHelper/HungryHelper'
 import BotanicalBabbles from './BotanicalBabbles/BotanicalBabbles';
+import './Projects.css'
 
 const Projects = () => {
     return (

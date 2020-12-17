@@ -1,24 +1,30 @@
 * {
     text-align: center;
-    margin: 0 auto;
+    /* margin: 0 auto; */
 }
 
 /* header {
     
 } */
 .app-root-div {
-    background-color: chartreuse;
+    /* background-color: chartreuse; */
+        
 }
 
 
 
 section {
     text-align: center;
-    max-width: 400px;
     padding: 50px;
 }
 body {
-    height: 600px;
+    display: flex;
+    flex-direction: column;
+    /* background-image: url('public/images/laptop.jpg'); */
+}
+
+main {
+    flex: 1 0 auto;
 }
 
 a {
@@ -31,8 +37,5 @@ a:hover {
 }
 
 footer {
-    position: relative;
-    /* bottom: 0;
-    left: 0;
-    right: 0; */
+    flex-shrink: 0;
 }
