@@ -1,7 +1,6 @@
 import React from 'react';
 import Home from './components/Home/Home';
 import Header from './components/Header/Header';
-import Landing from './components/Landing/Landing';
 import Projects from './components/Projects/Projects';
 import About from './components/About/About';
 import Footer from './components/Footer/Footer';
