@@ -4,14 +4,17 @@ const BotanicalBabbles = () => {
 	return (
 		<div>
 			<div className='projects-title'>
-				<a href='https://bbfe.herokuapp.com/'>
+				<a href='https://bbfe.herokuapp.com/' target='_blank' rel='noreferrer'>
 					<h2 className='projects-h2'>Botanical Babbles</h2>
 				</a>
 			</div>
 			<div className='projects-container'>
 				<section className='projects-left'>
-					<a href='https://bbfe.herokuapp.com/'>
-						<img src='/images/BBLogo.png' alt='' width='400px' />
+					<a
+						href='https://bbfe.herokuapp.com/'
+						target='_blank'
+						rel='noreferrer'>
+						<img src='/images/BBLogo.png' alt='Botanical Babbles Logo' width='400px' />
 					</a>
 				</section>
 				<section className='projects-right'>

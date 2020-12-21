@@ -1,0 +1,10 @@
+.resume-container {
+    padding: 20px;
+}
+
+.resume {
+    margin: 0 auto;
+    padding: 20px;
+    min-height: 400px;
+    max-width: 60%;
+}

@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './About.css';
 
 const About = () => {
@@ -23,13 +24,15 @@ const About = () => {
 				Software Engineering Immersive, I enjoy developing quality web
 				applications and striving toward efficiency.
 			</p>
-
-			<h2 className='resume-div-title'>Resumé</h2>
-			<img
-				className='resume-image'
-				src='/images/PersevereResume.jpg'
-				alt='Resumé'
-			/>
+			{/* Resume Div */}
+			<Link to='/resume'>
+				<h2 className='resume-div-title'>Resumé</h2>
+				<img
+					className='resume-image'
+					src='/images/PersevereResume.jpg'
+					alt='Resumé'
+				/>
+			</Link>
 		</div>
 	);
 };

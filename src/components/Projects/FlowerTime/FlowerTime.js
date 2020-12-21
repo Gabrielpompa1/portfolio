@@ -4,16 +4,22 @@ const FlowerTime = () => {
 	return (
 		<div>
 			<div className='projects-title'>
-				<a href='https://gabrielpompa1.github.io/Flower-Time/index2'>
+				<a
+					href='https://gabrielpompa1.github.io/Flower-Time/index2'
+					target='_blank'
+					rel='noreferrer'>
 					<h2 className='projects-h2'>FlowerTime</h2>
 				</a>
 			</div>
 			<div className='projects-container'>
 				<section className='projects-left'>
-					<a href='https://gabrielpompa1.github.io/Flower-Time/index2' target='_blank' rel='noreferrer'>
+					<a
+						href='https://gabrielpompa1.github.io/Flower-Time/index2'
+						target='_blank'
+						rel='noreferrer'>
 						<img
 							src='../images/Flower-Time.png'
-							alt=''
+							alt='Flower Time'
 							height='400px'
 							width='280px'
 						/>

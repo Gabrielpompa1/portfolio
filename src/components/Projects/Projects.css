@@ -1,12 +1,7 @@
 .projects-container {
-
     display: flex;
     justify-content: space-around;
 }
-
-/* .projects-left {
-
-} */
 
 .projects-right {
     text-align: center;
@@ -22,13 +17,16 @@
 }
 
 .projects-h2 {
-    color: black;
-    font-size: 32px;
+    font-size: 38px;
 }
 
 img {
     border-radius: 10%;
     border: 10px solid black;
+}
+
+img:hover {
+    border: 10px solid #6c6c6c;
 }
 
 li {
